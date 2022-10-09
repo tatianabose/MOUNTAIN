@@ -140,20 +140,7 @@
     margin: 5%;
 }
 
-.blue-br-btn{
-    padding:  15px 45px;
-    margin: 25px 0px;
-    background-color: #15324301;
-    border-color: #153243c5;
-}
 
-
-
-.blue-br-btn-1:hover{
-    cursor: pointer;
-    color: white;
-    background-color: #091c27;
-}
 
 .for-contact{
     background-image: url(websitedemos_net/fogs-on-green-mountain-1054222.jpg);
