@@ -39,6 +39,12 @@
     align-items: center;
 }
 
+.nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .nav-items a{
     color: white;
     text-decoration: none;
@@ -46,11 +52,13 @@
 }
 
 .blue-btn{
+    
     padding:  15px 35px;
     margin: 10px;
     color: white;
     background-color: #153243c5;
     border: none;
+    width: 170px;
 }
 
 .blue-btn:hover{
@@ -286,10 +294,123 @@
     font-size: 18px;
 }
 
+.form-contact{
+    display: flex;
+    flex-flow: column;
+}
+
+.form-contact input,textarea{
+    padding:15px 5px;
+    margin: 20px 0px;
+    border: none;
+    border-bottom: 1px solid #091c27;
+   
+}
+
+
 .img-ser{
     height: 400px;
     
 }
+
+
+.contact-info{
+    margin: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.contact-btn{
+    padding:  15px 45px;
+    margin: 25px 0px;
+    background-color: #15324301;
+    border-color: #153243c5;
+}
+
+.contact-btn:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #091c27;
+}
+
+.for-a-tag a{
+    text-decoration: none;
+    color: black;
+}
+
+.for-a-tag i,a:hover{
+    color: #1d444c;
+    cursor: pointer;
+}
+
+.logo-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.hamburger {
+    font-size: 20px;
+    color: white;
+    background-color: #1d444c;
+    padding: 10px;
+    border-radius: 2px;
+    
+
+
+}
+
+
+.mobile-nav{
+    display: none;
+    position: fixed;
+    background-color: white;
+    height: 100%;
+    width: 100vw;
+    top: 0px;
+    left: 0;
+  
+ 
+}
+
+.close{
+    display: flex;
+    justify-content: right;
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.open{
+    display: block;
+}
+
+.mobile-link {
+    display: flex;
+    flex-flow: column;
+}
+
+
+.mobile-link a{
+    justify-content: center;
+    text-decoration: none;
+    color: #091c27;
+    font-size: 20px;
+    border-bottom: 1px solid #091c27;
+    padding: 14px;
+}
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1200px){
     .img-ser{
     height: 350px;
@@ -349,6 +470,12 @@
      }
 }
 
+@media screen and (min-width: 900px){
+    .hamburger{
+        display: none;
+    }
+}
+
 @media screen and (max-width: 800px){
     .h2main{
         font-size: 25px;
@@ -377,6 +504,21 @@
     height: 400px;
     
 }
+
+.contact-info{
+    display: grid;
+    grid-template-columns: 1fr;
+   
+}
+
+.form{
+    margin: 25px 0px;
+}
+}
+
+.map-div iframe{
+    width: 100%;
+    height: 80vh;
 }
 
 @media screen and (max-width: 700px){
